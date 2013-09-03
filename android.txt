@@ -1,0 +1,3 @@
+title=<RandomQuotes>
+author=<Jonathan Calazan (www.calazan.com)>
+orientation=<portrait|landscape>

@@ -1,0 +1,24 @@
+#:kivy 1.7.2
+            
+<Quote>:
+    quote_widget: quote_label
+    
+    orientation: 'vertical'
+    
+    Label:
+        id: quote_label
+        text_size: self.width-40, self.height-40
+        italic: True
+        halign: 'center'
+        valign: 'bottom'
+            
+    AnchorLayout:
+        anchor_x: 'center'
+        anchor_y: 'center'
+        
+        Button:
+            text: 'Next'
+            size_hint: (.1, .2)
+            on_press: root.display_quote()
+            halign: 'center'
+            valign: 'middle'
